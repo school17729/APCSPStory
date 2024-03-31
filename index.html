@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AP CSP Story</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+</head>
+<body>
+    <div class="containerDiv">
+        <canvas class="effectsCanvas"></canvas>
+        <div class="headerDiv">
+            <span class="headerSpan">My AP CSP Story</span>
+        </div>
+        <div class="mainDiv">
+            <div class="sectionDiv">
+                <div class="tileDiv" onclick="handleClick(0)">
+                    <div class="tileImageDiv">
+                        <img class="tileImg" src="resources/Capture0.PNG" alt="Your Story"/>
+                    </div>
+                    <div class="tileSpanDiv">
+                        <span class="tileSpan">Your Story</span>
+                    </div>
+                </div>
+                <div class="tileDiv" onclick="handleClick(1)">
+                    <div class="tileImageDiv">
+                        <img class="tileImg" src="resources/Capture1.PNG" alt="Your Own Translator"/>
+                    </div>
+                    <div class="tileSpanDiv">
+                        <span class="tileSpan">Your Own Translator</span>
+                    </div>
+                </div>
+                <div class="tileDiv" onclick="handleClick(2)">
+                    <div class="tileImageDiv">
+                        <img class="tileImg" src="resources/Capture2.PNG" alt="Number Systems and Algorithms"/>
+                    </div>
+                    <div class="tileSpanDiv">
+                        <span class="tileSpan">Number Systems and Algorithms</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sectionDiv">
+                <div class="tileDiv" onclick="handleClick(3)">
+                    <div class="tileImageDiv">
+                        <img class="tileImg" src="resources/Capture3.PNG" alt="HTML, CSS, JS"/>
+                    </div>
+                    <div class="tileSpanDiv">
+                        <span class="tileSpan">HTML, CSS, JS</span>
+                    </div>
+                </div>
+                <div class="tileDiv" onclick="handleClick(4)">
+                    <div class="tileImageDiv">
+                        <img class="tileImg" src="resources/Capture4.PNG" alt="AP Exam"/>
+                    </div>
+                    <div class="tileSpanDiv">
+                        <span class="tileSpan">AP Exam</span>
+                    </div>
+                </div>
+                <div class="tileDiv" onclick="handleClick(5)">
+                    <div class="tileImageDiv">
+                        <img class="tileImg" src="resources/Capture5.PNG" alt="Reflection"/>
+                    </div>
+                    <div class="tileSpanDiv">
+                        <span class="tileSpan">Reflection</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="creditsDiv">
+            <div class="creditsButtonDiv" onclick="handleClick(6)">
+                <span class="creditsButtonSpan">Credits</span>
+            </div>
+        </div>
+        <div class="pageDiv">
+            <span class="pageSpan"></span>
+        </div>
+        <div class="navigatorDiv">
+            <div class="navigatorButtonDiv" onclick="previous()">
+                <img class="navigatorButtonImg" src="resources/previous.png" alt="Previous"/>
+            </div>
+            <div class="navigatorButtonDiv" onclick="home()">
+                <img class="navigatorButtonImg" src="resources/home.png" alt="Home"/>
+            </div>
+            <div class="navigatorImageDiv">
+                <img class="navigatorImg" src="resources/noImage.png" alt="No Image" />
+            </div>
+            <div class="navigatorButtonDiv" onclick="next()">
+                <img class="navigatorButtonImg" src="resources/next.png" alt="Next"/>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

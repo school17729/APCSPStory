@@ -1,0 +1,169 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.containerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 100%;
+}
+
+.effectsCanvas {
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+
+    opacity: 1.0;
+}
+
+.headerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 5%;
+    /*border: 2px solid rgb(255, 0, 0);*/
+}
+
+.headerSpan {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 85%;
+    /*border: 2px solid rgb(255, 127, 0);*/
+}
+
+.sectionDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 95%;
+    height: 47.5%;
+    /*border: 2px solid rgb(255, 255, 0);*/
+}
+
+.tileDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 31.6%;
+    height: 95%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.tileImageDiv, .tileSpanDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tileImageDiv {
+    width: 95%;
+    height: 90%;
+    /*border: 2px solid rgb(0, 255, 0);*/
+}
+
+.tileImg {
+    width: 100%;
+    height: 100%;
+}
+
+.tileSpanDiv {
+    width: 95%;
+    height: 10%;
+    /*border: 2px solid rgb(0, 255, 0);*/
+}
+
+.tileSpan {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.creditsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 5%;
+}
+
+.creditsButtonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 20%;
+    height: 95%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.creditsButtonSpan {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.pageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 80%;
+}
+
+.pageSpan {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navigatorDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 10%;
+}
+
+.navigatorButtonDiv, .navigatorImageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 7%;
+    height: 95%;
+}
+
+.navigatorButtonImg, .navigatorImg {
+    width: 100%;
+    height: 100%;
+}
